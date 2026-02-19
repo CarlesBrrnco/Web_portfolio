@@ -1,0 +1,519 @@
+/**
+ * Home Page - Carles Barranco Portfolio (v6)
+ *
+ * Changes:
+ * - Time zone: single left-aligned text box with Valencia + CDMX
+ * - Spacing: first paragraph closer to header (same gap as SERVICIOS→DIRECCIÓN DE ARTE)
+ * - Grid switch button X5/X3 in menu
+ * - Mobile menu: below header text line
+ * - Gallery with smooth transition between 5 and 3 columns
+ * - DB-backed gallery with fallback
+ */
+
+import { useEffect, useState, useCallback, useMemo } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useTheme } from "@/contexts/ThemeContext";
+import {
+  useLanguage,
+  ALL_LANGUAGES,
+  LANGUAGE_LABELS,
+} from "@/contexts/LanguageContext";
+import type { Language } from "@/contexts/LanguageContext";
+
+// Importar imágenes
+import portrait from "../images/portrait.jpeg";
+import cassette from "../images/works/cassette.png";
+import jbz from "../images/works/jbz.png";
+
+const MARGIN_VAR = "var(--page-margin)";
+
+const PORTRAIT = portrait;
+
+// Fallback gallery data
+const PROJECTS: {
+  src: string;
+  en: string;
+  es: string;
+  val: string;
+}[] = [
+  {
+    src: cassette,
+    en: "El Enhebre — Album cover design and art direction",
+    es: "El Enhebre — Diseño de portada de álbum y dirección de arte",
+    val: "El Enhebre — Disseny de portada d'àlbum i direcció d'art",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&fit=crop&auto=format&q=80",
+    en: "Zir Serio — Visual identity and cassette packaging",
+    es: "Zir Serio — Identidad visual y packaging para cassette",
+    val: "Zir Serio — Identitat visual i packaging per a cassette",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&fit=crop&auto=format&q=80",
+    en: "Momento — Editorial design and experimental typography",
+    es: "Momento — Diseño editorial y tipografía experimental",
+    val: "Momento — Disseny editorial i tipografia experimental",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=600&fit=crop&auto=format&q=80",
+    en: "Apart Type — Independent type foundry",
+    es: "Apart Type — Fundición tipográfica independiente",
+    val: "Apart Type — Fosa tipogràfica independent",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&fit=crop&auto=format&q=80",
+    en: "Gometverd — Visual identity and branding",
+    es: "Gometverd — Identidad visual y branding",
+    val: "Gometverd — Identitat visual i branding",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=600&fit=crop&auto=format&q=80",
+    en: "Shake It! — Poster design and promotional material",
+    es: "Shake It! — Diseño de póster y material promocional",
+    val: "Shake It! — Disseny de pòster i material promocional",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1635322966219-b75ed372eb01?w=600&fit=crop&auto=format&q=80",
+    en: "BCC — Creative direction and brand design",
+    es: "BCC — Dirección creativa y diseño de marca",
+    val: "BCC — Direcció creativa i disseny de marca",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&fit=crop&auto=format&q=80",
+    en: "Loitering — Analog exploration and collage",
+    es: "Loitering — Exploración analógica y collage",
+    val: "Loitering — Exploració analògica i collage",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?w=600&fit=crop&auto=format&q=80",
+    en: "DE — Display type design",
+    es: "DE — Diseño tipográfico display",
+    val: "DE — Disseny tipogràfic display",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&fit=crop&auto=format&q=80",
+    en: "GHI — Complete visual identity system",
+    es: "GHI — Sistema de identidad visual completo",
+    val: "GHI — Sistema d'identitat visual complet",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&fit=crop&auto=format&q=80",
+    en: "Production — Vinyl and merch artwork",
+    es: "Producción — Artwork para vinilo y merch",
+    val: "Producció — Artwork per a vinil i merch",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&fit=crop&auto=format&q=80",
+    en: "Sky — Editorial design and layout",
+    es: "Sky — Diseño editorial y maquetación",
+    val: "Sky — Disseny editorial i maquetació",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=600&fit=crop&auto=format&q=80",
+    en: "Draw — Illustration and digital art",
+    es: "Draw — Ilustración y arte digital",
+    val: "Draw — Il·lustració i art digital",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=600&fit=crop&auto=format&q=80",
+    en: "S&S — Art direction for campaign",
+    es: "S&S — Dirección de arte para campaña",
+    val: "S&S — Direcció d'art per a campanya",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=600&fit=crop&auto=format&q=80",
+    en: "PFC — Final degree project, graphic design",
+    es: "PFC — Proyecto final de carrera, diseño gráfico",
+    val: "PFC — Projecte final de carrera, disseny gràfic",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=600&fit=crop&auto=format&q=80",
+    en: "Araña — Logo and visual system",
+    es: "Araña — Logotipo y sistema visual",
+    val: "Aranya — Logotip i sistema visual",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=600&fit=crop&auto=format&q=80",
+    en: "aF — Experimental modular typeface",
+    es: "aF — Tipografía modular experimental",
+    val: "aF — Tipografia modular experimental",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1482160549825-59d1b23cb208?w=600&fit=crop&auto=format&q=80",
+    en: "Roots — Packaging and label design",
+    es: "Roots — Diseño de packaging y etiquetas",
+    val: "Roots — Disseny de packaging i etiquetes",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=600&fit=crop&auto=format&q=80",
+    en: "Minimal — Minimalist art direction",
+    es: "Minimal — Dirección de arte minimalista",
+    val: "Minimal — Direcció d'art minimalista",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&fit=crop&auto=format&q=80",
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+];
+
+type GalleryItem = { src: string; en: string; es: string; val: string };
+
+// ─── Clock Component ──────────────────────────────────────────────
+function LiveClock() {
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => setTime(new Date()), 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const formatTime = (date: Date, tz: string) =>
+    date.toLocaleTimeString("en-US", {
+      timeZone: tz,
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
+    });
+
+  return (
+    <div className="mt-3 leading-snug">
+      <p>
+        <span className="opacity-80">Valencia, España</span>
+        <span className="ml-4 opacity-80">
+          {formatTime(time, "Europe/Madrid")}
+        </span>
+      </p>
+      <p>
+        <span className="opacity-80">Ciudad de México, México</span>
+        <span className="ml-4 opacity-80">
+          {formatTime(time, "America/Mexico_City")}
+        </span>
+      </p>
+    </div>
+  );
+}
+
+// ─── Menu Controls ──────────────────────────────────────────────
+function MenuControls() {
+  const { theme, toggleTheme } = useTheme();
+  const { language, setLanguage } = useLanguage();
+  const otherLanguages = ALL_LANGUAGES.filter(l => l !== language);
+
+  return (
+    <div className="flex items-center gap-3 pointer-events-auto">
+      {/* Language selector */}
+      <div className="flex items-center gap-1">
+        {otherLanguages.map((lang, i) => (
+          <span key={lang} className="flex items-center gap-1">
+            {i > 0 && <span className="opacity-30">/</span>}
+            <button
+              onClick={() => setLanguage(lang)}
+              className="transition-opacity opacity-50 hover:opacity-100 uppercase"
+            >
+              {LANGUAGE_LABELS[lang]}
+            </button>
+          </span>
+        ))}
+      </div>
+
+      {/* Theme toggle */}
+      <button
+        onClick={toggleTheme}
+        className="opacity-50 hover:opacity-100 transition-opacity uppercase"
+      >
+        {theme === "dark" ? "LIGHT" : "DARK"}
+      </button>
+    </div>
+  );
+}
+
+// ─── Sticky Header ───────────────────────────────────────────────
+function StickyHeader() {
+  const { t } = useLanguage();
+
+  return (
+    <header
+      className="sticky top-0 left-0 right-0 z-50 mix-blend-difference text-white pointer-events-none"
+      style={{ padding: MARGIN_VAR }}
+    >
+      {/* Desktop layout: bio left, menu right */}
+      <div className="hidden md:flex items-start justify-between">
+        <p className="font-bold leading-snug max-w-[68%]">{t.headerBio}</p>
+        <MenuControls />
+      </div>
+
+      {/* Mobile layout: bio on top, menu below */}
+      <div className="flex flex-col md:hidden gap-2">
+        <p className="font-bold leading-snug">{t.headerBio}</p>
+        <MenuControls />
+      </div>
+    </header>
+  );
+}
+
+// ─── Compact Bio Section ─────────────────────────────────────────
+function BioSection() {
+  const { t } = useLanguage();
+
+  return (
+    <section
+      style={{
+        paddingLeft: MARGIN_VAR,
+        paddingRight: MARGIN_VAR,
+        /* Tight spacing: header height (~24px) + margin + small gap (~6px like SERVICIOS→DIRECCIÓN DE ARTE) */
+        paddingTop: "0",
+        paddingBottom: "4px",
+        minHeight: "80svh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+      }}
+    >
+      {/* Description paragraph — tight gap from header */}
+      <div>
+        <p className="leading-relaxed max-w-3xl mb-3 opacity-80">
+          {t.description}
+        </p>
+
+        <div className="max-w-md space-y-2">
+          <div>
+            <h3 className="font-bold mb-0.5">{t.servicesLabel}</h3>
+            <div className="leading-snug opacity-80">
+              {t.services.map((s, i) => (
+                <p key={i}>{s}</p>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="font-bold mb-0.5">{t.projectsLabel}</h3>
+            <div className="leading-snug opacity-80">
+              {t.projects.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="font-bold mb-0.5">{t.contactLabel}</h3>
+            <div className="leading-snug opacity-80">
+              <a
+                href="mailto:carlesbarrancodies@gmail.com"
+                className="block underline underline-offset-2 hover:opacity-80 transition-opacity"
+              >
+                carlesbarrancodies@gmail.com
+              </a>
+              <a
+                href="tel:+34645694915"
+                className="block underline underline-offset-2 hover:opacity-80 transition-opacity"
+              >
+                (+34) 645.694.915
+              </a>
+            </div>
+          </div>
+
+          <div className="leading-snug opacity-80">
+            {t.socialLinks.map((link, i) => (
+              <a
+                key={i}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block underline underline-offset-2 hover:opacity-80 transition-opacity"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+
+          <LiveClock />
+        </div>
+      </div>
+
+      <div className="pt-1">
+        <img
+          src={PORTRAIT}
+          alt="Carles Barranco portrait"
+          className="h-auto object-cover grayscale profileImg"
+        />
+      </div>
+    </section>
+  );
+}
+
+// ─── Gallery (DB + fallback, switchable 5/3 columns) ─────────────
+function Gallery({ cols }: { cols: number }) {
+  const { language } = useLanguage();
+  const [hoveredProject, setHoveredProject] = useState<string | null>(null);
+  const [tappedIndex, setTappedIndex] = useState<number | null>(null);
+
+  // Map DB projects to gallery items, or use fallback
+  const galleryItems: GalleryItem[] = useMemo(() => {
+    return PROJECTS;
+  }, []);
+
+  const handleTap = useCallback(
+    (index: number) => {
+      const desc = galleryItems[index][language as Language];
+      if (tappedIndex === index) {
+        setTappedIndex(null);
+        setHoveredProject(null);
+      } else {
+        setTappedIndex(index);
+        setHoveredProject(desc);
+      }
+    },
+    [language, tappedIndex, galleryItems]
+  );
+
+  const mobileCols = 2;
+
+  const distributeToColumns = useCallback(
+    (colCount: number) => {
+      const columns: GalleryItem[][] = Array.from(
+        { length: colCount },
+        () => []
+      );
+      galleryItems.forEach((project, i) => {
+        columns[i % colCount].push(project);
+      });
+      return columns;
+    },
+    [galleryItems]
+  );
+
+  const desktopColumns = useMemo(
+    () => distributeToColumns(cols),
+    [distributeToColumns, cols]
+  );
+  const mobileColumns = useMemo(
+    () => distributeToColumns(mobileCols),
+    [distributeToColumns]
+  );
+
+  const renderColumn = (
+    column: GalleryItem[],
+    colIndex: number,
+    prefix: string
+  ) => (
+    <div
+      key={`${prefix}-${colIndex}`}
+      className="flex flex-col"
+      style={{ gap: MARGIN_VAR }}
+    >
+      {column.map((project, rowIndex) => {
+        const globalIndex = galleryItems.indexOf(project);
+        return (
+          <div
+            key={`${prefix}-${colIndex}-${rowIndex}`}
+            className="overflow-hidden"
+            onMouseEnter={() =>
+              setHoveredProject(project[language as Language])
+            }
+            onMouseLeave={() => setHoveredProject(null)}
+            onClick={() => handleTap(globalIndex)}
+          >
+            <img
+              src={project.src}
+              alt={project[language as Language]}
+              loading="lazy"
+              className="w-full h-auto object-cover block"
+            />
+          </div>
+        );
+      })}
+    </div>
+  );
+
+  return (
+    <section
+      className="relative"
+      style={{
+        paddingLeft: MARGIN_VAR,
+        paddingRight: MARGIN_VAR,
+        paddingTop: "4px",
+        paddingBottom: MARGIN_VAR,
+      }}
+    >
+      {/* Desktop grid with smooth column transition */}
+      <div
+        className="hidden md:grid transition-all duration-500 ease-in-out"
+        style={{
+          gridTemplateColumns: `repeat(${cols}, 1fr)`,
+          gap: MARGIN_VAR,
+        }}
+      >
+        {desktopColumns.map((col, i) => renderColumn(col, i, "desktop"))}
+      </div>
+
+      {/* Mobile: 2 columns */}
+      <div
+        className="grid md:hidden"
+        style={{
+          gridTemplateColumns: `repeat(${mobileCols}, 1fr)`,
+          gap: MARGIN_VAR,
+        }}
+      >
+        {mobileColumns.map((col, i) => renderColumn(col, i, "mobile"))}
+      </div>
+
+      {/* Fixed bottom description */}
+      <AnimatePresence>
+        {hoveredProject && (
+          <motion.div
+            initial={{ opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 6 }}
+            transition={{ duration: 0.15, ease: "easeOut" }}
+            className="fixed bottom-0 left-0 right-0 z-40 py-3 mix-blend-difference text-white pointer-events-none"
+            style={{
+              paddingLeft: MARGIN_VAR,
+              paddingRight: MARGIN_VAR,
+            }}
+          >
+            <p className="font-bold text-center">{hoveredProject}</p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </section>
+  );
+}
+
+// ─── Footer ───────────────────────────────────────────────────────
+function Footer() {
+  const { t } = useLanguage();
+
+  return (
+    <footer
+      className="py-4"
+      style={{
+        paddingLeft: MARGIN_VAR,
+        paddingRight: MARGIN_VAR,
+      }}
+    >
+      <div className="flex items-center justify-between opacity-40">
+        <span>
+          &copy; {new Date().getFullYear()} {t.footerCopy}
+        </span>
+        <span>{t.footerRights}</span>
+      </div>
+    </footer>
+  );
+}
+
+// ─── Main Page ────────────────────────────────────────────────────
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-background text-foreground transition-colors duration-500">
+      <StickyHeader />
+      <main>
+        <BioSection />
+        <Gallery cols={5} />
+      </main>
+      <Footer />
+    </div>
+  );
+}
