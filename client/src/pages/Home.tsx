@@ -38,7 +38,7 @@ const PROJECTS: {
 }[] = [
   {
     src: cassette,
-    en: "El Enhebre — Album cover design and art direction",
+    en: "El Enhebra — Album cover design and art direction",
     es: "El Enhebre — Diseño de portada de álbum y dirección de arte",
     val: "El Enhebre — Disseny de portada d'àlbum i direcció d'art",
   },
