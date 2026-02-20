@@ -27,7 +27,7 @@ import jbz from "../images/works/jbz.png";
 import comic01 from "../images/works/comic01.png";
 import mandarina from "../images/works/Mandarina.png";
 import telita01 from "../images/works/Telita_01.png";
-import Chaowifi01 from "../images/works/Chaowifi01.png";
+import Chaowifi01 from "../images/works/ChaoWifi01.png";
 import Qi_poster from "../images/works/Qi_poster.png";
 import type_kubi from "../images/works/type_kubi.gif";
 import GERKO from "../images/works/GERKO.png";
