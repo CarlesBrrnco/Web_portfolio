@@ -58,7 +58,7 @@ import qi_01 from "../images/works/Qi_01.gif";
 import poster_arc1 from "../images/works/poster-01.png";
 import poster_arc2 from "../images/works/poster1.png";
 import mimi_disco from "../images/works/mimi_disco.gif";
-import macria_01 from "../images/works/MALCRIÁ_COVER2.jpg";
+import macria_01 from "../images/works/MALCRIÁ_COVER2.png";
 import macria_02 from "../images/works/malcria_01.png";
 import grim01 from "../images/works/grim_01.png";
 import grim02 from "../images/works/grim_02.png";
@@ -87,6 +87,7 @@ import drw_cover from "../images/works/DRW_cover.png";
 import drw_logos from "../images/works/DRW_logos.png";
 import drw_asset from "../images/works/DRW2.png";
 import drw_dog from "../images/works/DRW22.png";
+import jbz2 from "../images/works/Escanear 4.png";
 
 
 
@@ -242,6 +243,12 @@ const PROJECTS: {
   },
      {
     src: harem_2025,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: collage_02,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
@@ -416,6 +423,66 @@ const PROJECTS: {
   },
    {
     src: ronnie,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: jbz2,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: collage_garfield,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: saudade01,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: tf_01,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: garito_04,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: qi_01,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: X_morph,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: drw_dog,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: trilladora,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: monon,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
