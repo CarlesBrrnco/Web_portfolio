@@ -72,7 +72,7 @@ import foto01 from "../images/works/foto_danocres.jpeg";
 import ejemplar01 from "../images/works/ejemplar01.png";
 import collage_garfield from "../images/works/collage_garfield.png";
 import chaofoto from "../images/works/chao_foto.png";
-import chao_02 from "../images/works/ChaoWifi_02.png";
+import chao_02 from "../images/works/Chaowifi_02.png";
 import anjocar from "../images/works/anjocar.png";
 import qi_foto from "../images/works/Copia de P1250163.png";
 import graffiti_a from "../images/works/graffiti_a.png";
