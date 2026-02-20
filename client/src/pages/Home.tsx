@@ -31,8 +31,64 @@ import Chaowifi01 from "../images/works/Chaowifi01.png";
 import Qi_poster from "../images/works/Qi_poster.png";
 import type_kubi from "../images/works/type_kubi.gif";
 import GERKO from "../images/works/GERKO.png";
-import libreta01 from "../images/works/libreta01.png";
+import libreta01 from "../images/works/libreta_01.png";
 import Xut01 from "../images/works/Xut_01.png";
+import drw_cami from "../images/works/drw_cami.png";
+import harem_2025 from "../images/works/freepik__use-the-uploaded-reference-image-as-inspiration-fo__46354.png";
+import gerko_04 from "../images/works/GERKO-04.png";
+import type_xut from "../images/works/type_xut.gif";
+import avenport from "../images/works/type_avenport.gif";
+import X_morph from "../images/works/X_morph.gif";
+import botiga from "../images/works/type_botiga.gif";
+import type_drw from "../images/works/type_drw.gif";
+import monon from "../images/works/type_monon.gif";
+import nervio from "../images/works/type_nervio.gif";
+import type_telita from "../images/works/type_telita.gif";
+import trilladora from "../images/works/type_trilladora.gif";
+import xut_type from "../images/works/type_xut.gif";
+import xut_02 from "../images/works/xut-02.gif";
+import tf_01 from "../images/works/tf_01.png";
+import telita_camisa from "../images/works/telita_camisa.png";
+import saudade01 from "../images/works/saudade_01.png";
+import saudade02 from "../images/works/saudade_02.png";
+import saudade03 from "../images/works/saudade_03.png";
+import sade_01 from "../images/works/sade_01.png";
+import ronnie from "../images/works/RPReplay_Final1691020737.gif";
+import qi_01 from "../images/works/Qi_01.gif";
+import poster_arc1 from "../images/works/poster-01.png";
+import poster_arc2 from "../images/works/poster1.png";
+import mimi_disco from "../images/works/mimi_disco.gif";
+import macria_01 from "../images/works/MALCRIÁ_COVER2.jpg";
+import macria_02 from "../images/works/malcria_01.png";
+import grim01 from "../images/works/grim_01.png";
+import grim02 from "../images/works/grim_02.png";
+import grim_poster from "../images/works/grim_poster.png";
+import gravity from "../images/works/gravity.png";
+import gerko_pantalon from "../images/works/gerko_pantalon.png";
+import garito01 from "../images/works/garito_bola8.png";
+import garito02 from "../images/works/garito_logo.gif";
+import garito03 from "../images/works/garito_posavasos.png";
+import foto01 from "../images/works/foto_danocres.jpeg";
+import ejemplar01 from "../images/works/ejemplar01.png";
+import collage_garfield from "../images/works/collage_garfield.png";
+import chaofoto from "../images/works/chao_foto.png";
+import chao_02 from "../images/works/ChaoWifi02.png";
+import anjocar from "../images/works/anjocar.png";
+import qi_foto from "../images/works/Copia de P1250163.png";
+import graffiti_a from "../images/works/graffiti_a.png";
+import plantilla from "../images/works/plantilla01.png";
+import roc_marci from "../images/works/roc_marc01.png";
+import galleta from "../images/works/Galletaqi.png";
+import collage_vaquero from "../images/works/Escanear d7.png";
+import collage_02 from "../images/works/Escanear 7.png";
+import saudade04 from "../images/works/Saudade_catálogo.png";
+import garito_04 from "../images/works/garito_letrero.png";
+import drw_cover from "../images/works/DRW_cover.png";
+import drw_logos from "../images/works/DRW_logos.png";
+import drw_asset from "../images/works/DRW2.png";
+import drw_dog from "../images/works/DRW22.png";
+
+
 
 
 const MARGIN_VAR = "var(--page-margin)";
@@ -72,96 +128,294 @@ const PROJECTS: {
   },
   {
     src: mandarina,
-    en: "Gometverd — Visual identity and branding",
-    es: "Gometverd — Identidad visual y branding",
-    val: "Gometverd — Identitat visual i branding",
+    en: "tangerine - ",
+    es: "mandarina — Identidad visual y branding - 2025",
+    val: "mandarina — Identitat visual i branding",
   },
   {
-    src: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=600&fit=crop&auto=format&q=80",
-    en: "Shake It! — Poster design and promotional material",
-    es: "Shake It! — Diseño de póster y material promocional",
-    val: "Shake It! — Disseny de pòster i material promocional",
+    src: Chaowifi01,
+    en: "Chao Wifi Vol. 2 — Poster design and editorial design - 2024",
+    es: "Chao Wifi Vol. 2 — Diseño de póster y diseño editorial - 2024",
+    val: "Chao Wifi Vol. 2 — Disseny de pòster i disseny editorial - 2024",
   },
   {
-    src: "https://images.unsplash.com/photo-1635322966219-b75ed372eb01?w=600&fit=crop&auto=format&q=80",
-    en: "BCC — Creative direction and brand design",
-    es: "BCC — Dirección creativa y diseño de marca",
-    val: "BCC — Direcció creativa i disseny de marca",
+    src: Qi_poster,
+    en: "Qi — Creative direction, graphic design and typography - 2024",
+    es: "QI — Dirección creativa, diseño gráfico y tipografía - 2024",
+    val: "QI — Direcció creativa, disseny gràffic i tipografia - 2024",
   },
   {
-    src: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&fit=crop&auto=format&q=80",
-    en: "Loitering — Analog exploration and collage",
-    es: "Loitering — Exploración analógica y collage",
-    val: "Loitering — Exploració analògica i collage",
+    src: type_kubi,
+    en: "Kubi Mono — TYPOGRAPHIC DESIGN",
+    es: "Kubi mono — diseño tipográfico",
+    val: "Kubi mono — disseny tipografic",
   },
   {
-    src: "https://images.unsplash.com/photo-1572947650440-e8a97ef053b2?w=600&fit=crop&auto=format&q=80",
-    en: "DE — Display type design",
-    es: "DE — Diseño tipográfico display",
-    val: "DE — Disseny tipogràfic display",
+    src: GERKO,
+    en: "GERKO — Display type design",
+    es: "GERKO — Diseño tipográfico display",
+    val: "GERKO — Disseny tipogràfic display",
   },
   {
-    src: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&fit=crop&auto=format&q=80",
+    src: libreta01,
     en: "GHI — Complete visual identity system",
     es: "GHI — Sistema de identidad visual completo",
     val: "GHI — Sistema d'identitat visual complet",
   },
   {
-    src: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&fit=crop&auto=format&q=80",
+    src: Xut01,
     en: "Production — Vinyl and merch artwork",
     es: "Producción — Artwork para vinilo y merch",
     val: "Producció — Artwork per a vinil i merch",
   },
   {
-    src: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&fit=crop&auto=format&q=80",
+    src: drw_cami,
     en: "Sky — Editorial design and layout",
     es: "Sky — Diseño editorial y maquetación",
     val: "Sky — Disseny editorial i maquetació",
   },
   {
-    src: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=600&fit=crop&auto=format&q=80",
+    src: macria_01,
     en: "Draw — Illustration and digital art",
     es: "Draw — Ilustración y arte digital",
     val: "Draw — Il·lustració i art digital",
   },
   {
-    src: "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=600&fit=crop&auto=format&q=80",
-    en: "S&S — Art direction for campaign",
-    es: "S&S — Dirección de arte para campaña",
-    val: "S&S — Direcció d'art per a campanya",
+    src: saudade02,
+    en: "saudade estudio — Art direction for campaign",
+    es: "saudade estudio — Dirección de arte para campaña",
+    val: "saudade estudio — Direcció d'art per a campanya",
   },
   {
-    src: "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=600&fit=crop&auto=format&q=80",
+    src: poster_arc1,
     en: "PFC — Final degree project, graphic design",
     es: "PFC — Proyecto final de carrera, diseño gráfico",
     val: "PFC — Projecte final de carrera, disseny gràfic",
   },
   {
-    src: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=600&fit=crop&auto=format&q=80",
+    src: grim02,
     en: "Araña — Logo and visual system",
     es: "Araña — Logotipo y sistema visual",
     val: "Aranya — Logotip i sistema visual",
   },
   {
-    src: "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=600&fit=crop&auto=format&q=80",
+    src: qi_foto,
     en: "aF — Experimental modular typeface",
     es: "aF — Tipografía modular experimental",
     val: "aF — Tipografia modular experimental",
   },
   {
-    src: "https://images.unsplash.com/photo-1482160549825-59d1b23cb208?w=600&fit=crop&auto=format&q=80",
+    src: avenport,
     en: "Roots — Packaging and label design",
     es: "Roots — Diseño de packaging y etiquetas",
     val: "Roots — Disseny de packaging i etiquetes",
   },
   {
-    src: "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=600&fit=crop&auto=format&q=80",
+    src: garito01,
     en: "Minimal — Minimalist art direction",
     es: "Minimal — Dirección de arte minimalista",
     val: "Minimal — Direcció d'art minimalista",
   },
   {
-    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&fit=crop&auto=format&q=80",
+    src: drw_cover,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: gravity,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+    {
+    src: graffiti_a,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+    {
+    src: gerko_04,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: harem_2025,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+      {
+    src: ejemplar01,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+      {
+    src: foto01,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: type_telita,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: saudade03,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: mimi_disco,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: anjocar,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: grim01,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: chaofoto,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: garito03,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: type_xut,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: type_drw,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: xut_02,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+     {
+    src: poster_arc2,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+    {
+    src: gerko_pantalon,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: sade_01,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: macria_02,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: plantilla,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: roc_marci,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: galleta,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: collage_vaquero,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: saudade04,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: nervio,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: grim_poster,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: drw_logos,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: telita_camisa,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: botiga,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: chao_02,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: drw_asset,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: ronnie,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
