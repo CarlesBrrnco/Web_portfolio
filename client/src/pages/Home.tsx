@@ -88,6 +88,10 @@ import drw_logos from "../images/works/DRW_logos.png";
 import drw_asset from "../images/works/DRW2.png";
 import drw_dog from "../images/works/DRW22.png";
 import jbz2 from "../images/works/Escanear 4.png";
+import jbz3 from "../images/works/jbz post_28-2.png";
+import jbz4 from "../images/works/jbz_bateria-2.png";
+import drw_con from "../images/works/drw_concert.png";
+
 
 
 
@@ -259,6 +263,12 @@ const PROJECTS: {
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
   },
+   {
+    src: drw_con,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
       {
     src: foto01,
     en: "Horizon — Photography and editorial composition",
@@ -350,6 +360,12 @@ const PROJECTS: {
     val: "Horitzó — Fotografia i composició editorial",
   },
   {
+    src: garito02,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
     src: plantilla,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
@@ -398,6 +414,12 @@ const PROJECTS: {
     val: "Horitzó — Fotografia i composició editorial",
   },
   {
+    src: trilladora,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
     src: telita_camisa,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
@@ -433,12 +455,7 @@ const PROJECTS: {
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
   },
-  {
-    src: collage_garfield,
-    en: "Horizon — Photography and editorial composition",
-    es: "Horizonte — Fotografía y composición editorial",
-    val: "Horitzó — Fotografia i composició editorial",
-  },
+
   {
     src: saudade01,
     en: "Horizon — Photography and editorial composition",
@@ -476,13 +493,19 @@ const PROJECTS: {
     val: "Horitzó — Fotografia i composició editorial",
   },
   {
-    src: trilladora,
+    src: jbz4,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
   },
   {
     src: monon,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+   {
+    src: collage_garfield,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
