@@ -47,9 +47,9 @@ const translations: Record<Language, Translations> = {
     ],
     contactLabel: "Contact:",
     socialLinks: [
-      { label: "Linkedin", url: "https://linkedin.com" },
-      { label: "Instagram", url: "https://instagram.com" },
-      { label: "Are.na", url: "https://are.na" },
+      { label: "Linkedin", url: "https://es.linkedin.com/in/carlesbarrancodies" },
+      { label: "Instagram", url: "https://www.instagram.com/carles.brrnco/" },
+      { label: "Are.na", url: "https://www.are.na/carles-barranco/channels" },
     ],
     lightLabel: "Light",
     darkLabel: "Dark",
