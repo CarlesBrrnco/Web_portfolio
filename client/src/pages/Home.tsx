@@ -24,6 +24,16 @@ import type { Language } from "@/contexts/LanguageContext";
 import portrait from "../images/portrait.jpeg";
 import cassette from "../images/works/cassette.png";
 import jbz from "../images/works/jbz.png";
+import comic01 from "../images/works/comic01.png";
+import mandarina from "../images/works/Mandarina.png";
+import telita01 from "../images/works/Telita_01.png";
+import Chaowifi01 from "../images/works/Chaowifi01.png";
+import Qi_poster from "../images/works/Qi_poster.png";
+import type_kubi from "../images/works/type_kubi.gif";
+import GERKO from "../images/works/GERKO.png";
+import libreta01 from "../images/works/libreta01.png";
+import Xut01 from "../images/works/Xut_01.png";
+
 
 const MARGIN_VAR = "var(--page-margin)";
 
@@ -38,30 +48,30 @@ const PROJECTS: {
 }[] = [
   {
     src: cassette,
-    en: "El Enhebre — Album cover design and art direction",
-    es: "El Enhebre — Diseño de portada de álbum y dirección de arte",
-    val: "El Enhebre — Disseny de portada d'àlbum i direcció d'art",
+    en: "El Enhebre — Album cover design and art direction - 2023",
+    es: "El Enhebre — Diseño de portada de álbum y dirección de arte - 2023",
+    val: "El Enhebre — Disseny de portada d'àlbum i direcció d'art - 2023",
   },
   {
-    src: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&fit=crop&auto=format&q=80",
-    en: "Zir Serio — Visual identity and cassette packaging",
-    es: "Zir Serio — Identidad visual y packaging para cassette",
-    val: "Zir Serio — Identitat visual i packaging per a cassette",
+    src: jbz,
+    en: "JBZ — Visual identity and cassette packaging - 2025",
+    es: "JBZ — Identidad visual y packaging para cassette - 2025",
+    val: "JBZ — Identitat visual i packaging per a cassette - 2025",
   },
   {
-    src: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&fit=crop&auto=format&q=80",
+    src: comic01,
     en: "Momento — Editorial design and experimental typography",
     es: "Momento — Diseño editorial y tipografía experimental",
     val: "Momento — Disseny editorial i tipografia experimental",
   },
   {
-    src: "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=600&fit=crop&auto=format&q=80",
-    en: "Apart Type — Independent type foundry",
-    es: "Apart Type — Fundición tipográfica independiente",
-    val: "Apart Type — Fosa tipogràfica independent",
+    src: telita01,
+    en: "TELITA — Visual identity and typography - 2025",
+    es: "TELITA — Identidad visual y tipografía - 2025",
+    val: "TELITA — Identitat gráfica i tipografía - 2025",
   },
   {
-    src: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&fit=crop&auto=format&q=80",
+    src: mandarina,
     en: "Gometverd — Visual identity and branding",
     es: "Gometverd — Identidad visual y branding",
     val: "Gometverd — Identitat visual i branding",
