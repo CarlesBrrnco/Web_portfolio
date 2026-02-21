@@ -91,6 +91,8 @@ import jbz2 from "../images/works/Escanear 4.png";
 import jbz3 from "../images/works/jbz post_28-2.png";
 import jbz4 from "../images/works/jbz_bateria-2.png";
 import drw_con from "../images/works/drw_concert.png";
+import gerko04 from "../images/works/Gerko_pant.png";
+import fanzine01 from "../images/works/97fanzine.gif";
 
 
 
@@ -342,7 +344,7 @@ const PROJECTS: {
     val: "Horitzó — Fotografia i composició editorial",
   },
     {
-    src: gerko_pantalon,
+    src: gerko04,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
@@ -506,6 +508,12 @@ const PROJECTS: {
   },
    {
     src: collage_garfield,
+    en: "Horizon — Photography and editorial composition",
+    es: "Horizonte — Fotografía y composición editorial",
+    val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: fanzine01,
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
