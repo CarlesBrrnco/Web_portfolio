@@ -93,6 +93,7 @@ import jbz4 from "../images/works/jbz_bateria-2.png";
 import drw_con from "../images/works/drw_concert.png";
 import gerko04 from "../images/works/Gerko_pant.png";
 import fanzine01 from "../images/works/97fanzine.gif";
+import chao_poster from "../images/works/chao_poster.png";
 
 
 
@@ -517,6 +518,12 @@ const PROJECTS: {
     en: "97’ Fanzine - 2023",
     es: "97’ Fanzine - 2023",
     val: "97’ Fanzine - 2023",
+  },
+    {
+    src: chao_poster,
+    en: "Chao wifi vol. 02 - editorial design and poster design - 2024",
+    es: "Chao wifi vol. 02 - diseño editorial y poster - 2024",
+    val: "Chao wifi vol. 02 - disseny editorial i poster - 2024",
   },
 ];
 
