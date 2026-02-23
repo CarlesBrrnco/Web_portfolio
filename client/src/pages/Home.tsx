@@ -94,6 +94,8 @@ import drw_con from "../images/works/drw_concert.png";
 import gerko04 from "../images/works/Gerko_pant.png";
 import fanzine01 from "../images/works/97fanzine.gif";
 import chao_poster from "../images/works/chao_poster.png";
+import libreta02 from "../images/works/libreta_02.png";
+import libreta03 from "../images/works/libreta_03.png";
 
 
 
@@ -131,7 +133,7 @@ const PROJECTS: {
   {
     src: telita01,
     en: "Telita Estudio - Branding and typographic design - 2025",
-    es: "Telita Estudio - Branding y diseño tipografico - 2025",
+    es: "Telita Estudio - Branding y diseño tipográfico - 2025",
     val: "Telita Estudio - Brànding y disseny tipogràfic - 2025",
   },
   {
@@ -166,9 +168,9 @@ const PROJECTS: {
   },
   {
     src: libreta01,
-    en: "Notebook 01 - 2025",
-    es: "Libreta 01 - 2025",
-    val: "Llibreta 01 - 2025",
+    en: "Notebook_01 - 2025",
+    es: "Libreta_01 - 2025",
+    val: "Llibreta_01 - 2025",
   },
   {
     src: Xut01,
@@ -178,9 +180,9 @@ const PROJECTS: {
   },
   {
     src: drw_cami,
-    en: "Drw - branding , diseño tipográfico and merch - 2025",
-    es: "Drw - branding , diseño tipográfico y merch - 2025",
-    val: "Drw - brànding , disseny tipogràfic i merch - 2025",
+    en: "DRW - branding and typographic design - 2025",
+    es: "DRW - Branbranding y diseño tipográficoding - 2025",
+    val: "DRW - brànding i disseny tipogràfic - 2025",
   },
   {
     src: macria_01,
@@ -226,9 +228,9 @@ const PROJECTS: {
   },
   {
     src: drw_cover,
-    en: "DRW - Branding - 2025",
-    es: "DRW - Branding - 2025",
-    val: "DRW - Brànding - 2025",
+    en: "DRW - branding and typographic design - 2025",
+    es: "DRW - Branbranding y diseño tipográficoding - 2025",
+    val: "DRW - brànding i disseny tipogràfic - 2025",
   },
   {
     src: gravity,
@@ -268,9 +270,9 @@ const PROJECTS: {
   },
    {
     src: drw_con,
-    en: "DRW - Branding - 2025",
-    es: "DRW - Branding - 2025",
-    val: "DRW - Brànding - 2025",
+    en: "DRW - branding and typographic design - 2025",
+    es: "DRW - Branbranding y diseño tipográficoding - 2025",
+    val: "DRW - brànding i disseny tipogràfic - 2025",
   },
       {
     src: foto01,
@@ -281,7 +283,7 @@ const PROJECTS: {
      {
     src: type_telita,
     en: "Telita Estudio - Branding and typographic design - 2025",
-    es: "Telita Estudio - Branding y diseño tipografico - 2025",
+    es: "Telita Estudio - Branding y diseño tipográfico - 2025",
     val: "Telita Estudio - Brànding y disseny tipogràfic - 2025",
   },
      {
@@ -328,9 +330,9 @@ const PROJECTS: {
   },
      {
     src: type_drw,
-    en: "DRW - Branding - 2025",
-    es: "DRW - Branding - 2025",
-    val: "DRW - Brànding - 2025",
+    en: "DRW - branding and typographic design - 2025",
+    es: "DRW - Branbranding y diseño tipográficoding - 2025",
+    val: "DRW - brànding i disseny tipogràfic - 2025",
   },
      {
     src: xut_02,
@@ -404,6 +406,12 @@ const PROJECTS: {
     es: "Nervo Serif - Diseño tipográfico - 2025",
     val: "Nervo Serif - Disseny tipogàfic - 2025",
   },
+  {
+    src: libreta02,
+    en: "Notebook_02 - 2025",
+    es: "Libreta_02 - 2025",
+    val: "Llibreta_02 - 2025",
+  },
    {
     src: grim_poster,
     en: "Grime / BRW - Art direcction - 2025",
@@ -412,9 +420,9 @@ const PROJECTS: {
   },
    {
     src: drw_logos,
-    en: "DRW - Branding - 2025",
-    es: "DRW - Branding - 2025",
-    val: "DRW - Brànding - 2025",
+    en: "DRW - branding and typographic design - 2025",
+    es: "DRW - Branbranding y diseño tipográficoding - 2025",
+    val: "DRW - brànding i disseny tipogràfic - 2025",
   },
   {
     src: trilladora,
@@ -422,10 +430,16 @@ const PROJECTS: {
     es: "trilladora - Diseño tipográfico - 2025",
     val: "trilladora - Disseny tipogàfic - 2025",
   },
+   {
+    src: jbz3,
+    en: "JBZ - Branding and collages - 2025",
+    es: "JBZ - Branding y Collages - 2025",
+    val: "JBZ - Brànding i Collages - 2025",
+  },
   {
     src: telita_camisa,
     en: "Telita Estudio - Branding and typographic design - 2025",
-    es: "Telita Estudio - Branding y diseño tipografico - 2025",
+    es: "Telita Estudio - Branding y diseño tipográfico - 2025",
     val: "Telita Estudio - Brànding y disseny tipogràfic - 2025",
   },
   {
@@ -442,9 +456,9 @@ const PROJECTS: {
   },
   {
     src: drw_asset,
-    en: "DRW - Branding - 2025",
-    es: "DRW - Branding - 2025",
-    val: "DRW - Brànding - 2025",
+    en: "DRW - branding and typographic design - 2025",
+    es: "DRW - Branbranding y diseño tipográficoding - 2025",
+    val: "DRW - brànding i disseny tipogràfic - 2025",
   },
    {
     src: ronnie,
@@ -458,7 +472,6 @@ const PROJECTS: {
     es: "JBZ - Branding y Collages - 2025",
     val: "JBZ - Brànding i Collages - 2025",
   },
-
   {
     src: saudade01,
     en: "Saudade estudio - Branding and editorial design - 2024",
@@ -478,6 +491,12 @@ const PROJECTS: {
     val: "Bar el Garito - Brànding - 2024",
   },
   {
+    src: libreta03,
+    en: "Notebook_03 - 2025",
+    es: "Libreta_03 - 2025",
+    val: "Llibreta_03 - 2025",
+  },
+  {
     src: qi_01,
     en: "Qi, energy never lies / Cresone - Vynil design and art direction - 2024",
     es: "Qi, energy never lies / Cresone - diseño de vinilo y dirección de arte - 2024",
@@ -491,9 +510,9 @@ const PROJECTS: {
   },
   {
     src: drw_dog,
-    en: "DRW - Branding - 2025",
-    es: "DRW - Branding - 2025",
-    val: "DRW - Brànding - 2025",
+    en: "DRW - branding and typographic design - 2025",
+    es: "DRW - Branbranding y diseño tipográficoding - 2025",
+    val: "DRW - brànding i disseny tipogràfic - 2025",
   },
   {
     src: jbz4,
@@ -513,17 +532,17 @@ const PROJECTS: {
     es: "collage_03 - 2024",
     val: "collage_03 - 2024",
   },
+      {
+    src: chao_poster,
+    en: "Chao wifi vol. 02 - editorial design and poster design - 2024",
+    es: "Chao wifi vol. 02 - diseño editorial y poster - 2024",
+    val: "Chao wifi vol. 02 - disseny editorial i poster - 2024",
+  },
   {
     src: fanzine01,
     en: "97’ Fanzine - 2023",
     es: "97’ Fanzine - 2023",
     val: "97’ Fanzine - 2023",
-  },
-    {
-    src: chao_poster,
-    en: "Chao wifi vol. 02 - editorial design and poster design - 2024",
-    es: "Chao wifi vol. 02 - diseño editorial y poster - 2024",
-    val: "Chao wifi vol. 02 - disseny editorial i poster - 2024",
   },
 ];
 
