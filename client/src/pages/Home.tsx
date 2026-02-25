@@ -96,6 +96,8 @@ import fanzine01 from "../images/works/97fanzine.gif";
 import chao_poster from "../images/works/chao_poster.png";
 import libreta02 from "../images/works/libreta_02.png";
 import libreta03 from "../images/works/libreta_03.png";
+import drw_sweater from "../images/works/DRW_sweater.png";
+import kaychain from "../images/works/KEYCHAIN_SADE.png";
 
 
 
@@ -382,6 +384,12 @@ const PROJECTS: {
     es: "Roc Marciano Bootleg Tee / Col·lectiu col·lectiu workshop - 2023",
     val: "Roc Marciano Bootleg Tee / Col·lectiu col·lectiu workshop - 2023",
   },
+  {
+    src: drw_sweater,
+    en: "DRW - branding and typographic design - 2025",
+    es: "DRW - Branbranding y diseño tipográficoding - 2025",
+    val: "DRW - brànding i disseny tipogràfic - 2025",
+  },
    {
     src: galleta,
     en: "Qi, energy never lies / Cresone - Vynil design and art direction - 2024",
@@ -507,6 +515,12 @@ const PROJECTS: {
     en: "Horizon — Photography and editorial composition",
     es: "Horizonte — Fotografía y composición editorial",
     val: "Horitzó — Fotografia i composició editorial",
+  },
+  {
+    src: sade_01,
+    en: "Lettering_02 - Sade - 2023",
+    es: "Lettering_02 - Sade - 2023",
+    val: "Lettering_02 - Sade - 2023",
   },
   {
     src: drw_dog,
