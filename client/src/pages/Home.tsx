@@ -517,7 +517,7 @@ const PROJECTS: {
     val: "Horitzó — Fotografia i composició editorial",
   },
   {
-    src: sade_01,
+    src: kaychain,
     en: "Lettering_02 - Sade - 2023",
     es: "Lettering_02 - Sade - 2023",
     val: "Lettering_02 - Sade - 2023",
