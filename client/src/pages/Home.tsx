@@ -244,12 +244,6 @@ const PROJECTS: {
     val: "gravity - lettering - 2025",
   },
     {
-    src: graffiti_a,
-    en: "monogram_01 - 2023",
-    es: "monograma_01 - 2023",
-    val: "monograma_01 - 2023",
-  },
-    {
     src: gerko_04,
     en: "Gerko - Branding and lettering - 2025",
     es: "Gerko - Branding y lettering - 2025",
@@ -503,9 +497,9 @@ const PROJECTS: {
   },
   {
     src: tf_01,
-    en: "monogram_02 - 2023",
-    es: "monograma_02 - 2023",
-    val: "monograma_02 - 2023",
+    en: "monogram_01 - 2023",
+    es: "monograma_01 - 2023",
+    val: "monograma_01 - 2023",
   },
    {
     src: garito_04,
