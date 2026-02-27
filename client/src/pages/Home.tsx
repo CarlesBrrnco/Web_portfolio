@@ -131,9 +131,9 @@ const PROJECTS: {
   },
   {
     src: comic01,
-    en: "Momento — Editorial design and experimental typography",
-    es: "Momento — Diseño editorial y tipografía experimental",
-    val: "Momento — Disseny editorial i tipografia experimental",
+    en: "Fanzine_01 - 2024",
+    es: "Fanzine_01 - 2024",
+    val: "Fanzine_01 - 2024",
   },
   {
     src: telita01,
