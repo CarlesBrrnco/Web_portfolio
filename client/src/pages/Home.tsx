@@ -98,6 +98,9 @@ import libreta02 from "../images/works/libreta_02.png";
 import libreta03 from "../images/works/libreta_03.png";
 import drw_sweater from "../images/works/DRW_sweater.png";
 import kaychain from "../images/works/KEYCHAIN_SADE.png";
+import baho_cami from "../images/works/baho_camiset.gif";
+import baho_logo from "../images/works/baho_gif.gif";
+import baho_taco from "../images/works/baho_taquería.png";
 
 
 
@@ -200,9 +203,9 @@ const PROJECTS: {
   },
   {
     src: poster_arc1,
-    en: "Baho Gallery - poster design - 2024",
-    es: "Baho Gallery - Diseño de poster - 2024",
-    val: "Baho Gallery - disseny de poster - 2024",
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
   {
     src: grim02,
@@ -300,6 +303,12 @@ const PROJECTS: {
     es: "mimi Disco - Lettering - 2025",
     val: "mimi Disco - Lettering - 2025",
   },
+  {
+    src: baho_taco,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
+  },
      {
     src: anjocar,
     en: "palets Anjocar - branding - 2024",
@@ -344,9 +353,9 @@ const PROJECTS: {
   },
      {
     src: poster_arc2,
-    en: "Baho Gallery - poster design - 2024",
-    es: "Baho Gallery - Diseño de poster - 2024",
-    val: "Baho Gallery - disseny de poster - 2024",
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
     {
     src: gerko04,
@@ -468,6 +477,12 @@ const PROJECTS: {
     es: "DRW - Branbranding y diseño tipográficoding - 2025",
     val: "DRW - brànding i disseny tipogràfic - 2025",
   },
+  {
+    src: baho_logo,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
+  },
    {
     src: ronnie,
     en: "Xut - branding and typographic design - 2025",
@@ -533,6 +548,12 @@ const PROJECTS: {
     en: "JBZ - Branding and collages - 2025",
     es: "JBZ - Branding y Collages - 2025",
     val: "JBZ - Brànding i Collages - 2025",
+  },
+  {
+    src: baho_cami,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
   {
     src: monon,
