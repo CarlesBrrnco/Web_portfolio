@@ -102,6 +102,8 @@ import baho_cami from "../images/works/baho_camiset.gif";
 import baho_logo from "../images/works/baho_gif.gif";
 import baho_taco from "../images/works/baho_taquería.png";
 import baho_tarjeta from "../images/works/baho_tarjeta-21.gif";
+import saudade_product from "../images/works/Saudade_product.gif";
+import saudade_asset from "../images/works/SAUDADE_A.jpeg";
 
 
 
@@ -131,16 +133,16 @@ const PROJECTS: {
     val: "JBZ - Brànding i Collages - 2025",
   },
   {
-    src: comic01,
-    en: "Fanzine_01 - 2024",
-    es: "Fanzine_01 - 2024",
-    val: "Fanzine_01 - 2024",
-  },
-  {
     src: telita01,
     en: "Telita Estudio - Branding and typographic design - 2025",
     es: "Telita Estudio - Branding y diseño tipográfico - 2025",
     val: "Telita Estudio - Brànding y disseny tipogràfic - 2025",
+  },
+  {
+    src: comic01,
+    en: "Fanzine_01 - 2024",
+    es: "Fanzine_01 - 2024",
+    val: "Fanzine_01 - 2024",
   },
   {
     src: mandarina,
@@ -316,12 +318,6 @@ const PROJECTS: {
     es: "Bar el Garito - Branding - 2024",
     val: "Bar el Garito - Brànding - 2024",
   },
-  {
-    src: baho_logo,
-    en: "Baho Gallery - Branding and poster design - 2024",
-    es: "Baho Gallery - branding y Diseño de poster - 2024",
-    val: "Baho Gallery - brànding i disseny de poster - 2024",
-  },
      {
     src: type_xut,
     en: "Xut - branding and typographic design - 2025",
@@ -340,17 +336,17 @@ const PROJECTS: {
     es: "Ejemplar Estudio - lettering - 2025",
     val: "Ejemplar Estudio - lettering - 2025",
   },
+  {
+    src: poster_arc2,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
+  },
      {
     src: xut_02,
     en: "Xut - branding and typographic design - 2025",
     es: "Xut - branding y diseño tipográfico - 2025",
     val: "Xut - brànding i disseny tipogràfic - 2025",
-  },
-     {
-    src: poster_arc2,
-    en: "Baho Gallery - Branding and poster design - 2024",
-    es: "Baho Gallery - branding y Diseño de poster - 2024",
-    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
     {
     src: gerko04,
@@ -363,6 +359,18 @@ const PROJECTS: {
     en: "Lettering_01 - Sade - 2023",
     es: "Lettering_01 - Sade - 2023",
     val: "Lettering_01 - Sade - 2023",
+  },
+  {
+    src: saudade_product,
+    en: "Saudade estudio - Branding and editorial design - 2024",
+    es: "Saudade estudio - Branding y diseño editorial - 2024",
+    val: "Saudade estudio - Brànding i disseny editorial - 2024",
+  },
+  {
+    src: baho_logo,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
   {
     src: macria_02,
@@ -555,6 +563,12 @@ const PROJECTS: {
     en: "97’ Fanzine - 2023",
     es: "97’ Fanzine - 2023",
     val: "97’ Fanzine - 2023",
+  },
+  {
+    src: saudade_asset,
+    en: "Saudade estudio - Branding and editorial design - 2024",
+    es: "Saudade estudio - Branding y diseño editorial - 2024",
+    val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
 ];
 
