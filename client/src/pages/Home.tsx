@@ -499,16 +499,16 @@ const PROJECTS: {
     val: "JBZ - Brànding i Collages - 2025",
   },
   {
-    src: saudade01,
-    en: "Saudade estudio - Branding and editorial design - 2024",
-    es: "Saudade estudio - Branding y diseño editorial - 2024",
-    val: "Saudade estudio - Brànding i disseny editorial - 2024",
-  },
-  {
     src: anjocar,
     en: "palets Anjocar - branding - 2024",
     es: "palets Anjocar - branding - 2024",
     val: "palets Anjocar - branding - 2024",
+  },
+  {
+    src: saudade01,
+    en: "Saudade estudio - Branding and editorial design - 2024",
+    es: "Saudade estudio - Branding y diseño editorial - 2024",
+    val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
    {
     src: garito_04,
