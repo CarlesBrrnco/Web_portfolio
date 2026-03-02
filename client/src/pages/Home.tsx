@@ -197,6 +197,12 @@ const PROJECTS: {
     val: "DRW - brànding i disseny tipogràfic - 2025",
   },
   {
+    src: gravity,
+    en: "gravity - lettering - 2025",
+    es: "gravity - lettering - 2025",
+    val: "gravity - lettering - 2025",
+  },
+  {
     src: macria_01,
     en: "Marciá / Casta Diva - Video clip direction and title design - 2025",
     es: "Marciá / Casta Diva - Dirección de videoclip y diseño de créditos - 2025",
@@ -244,35 +250,17 @@ const PROJECTS: {
     es: "DRW - Branbranding y diseño tipográficoding - 2025",
     val: "DRW - brànding i disseny tipogràfic - 2025",
   },
-  {
-    src: gravity,
-    en: "gravity - lettering - 2025",
-    es: "gravity - lettering - 2025",
-    val: "gravity - lettering - 2025",
-  },
     {
     src: gerko_04,
     en: "Gerko - Branding and lettering - 2025",
     es: "Gerko - Branding y lettering - 2025",
     val: "Gerko - Brànding i lettering - 2025",
   },
-     {
-    src: harem_2025,
-    en: "Horizon — Photography and editorial composition",
-    es: "Horizonte — Fotografía y composición editorial",
-    val: "Horitzó — Fotografia i composició editorial",
-  },
   {
     src: collage_02,
     en: "collage_01 - 2024",
     es: "collage_01 - 2024",
     val: "collage_01 - 2024",
-  },
-      {
-    src: ejemplar01,
-    en: "Ejemplar Estudio - lettering - 2025",
-    es: "Ejemplar Estudio - lettering - 2025",
-    val: "Ejemplar Estudio - lettering - 2025",
   },
    {
     src: drw_con,
@@ -345,6 +333,12 @@ const PROJECTS: {
     en: "DRW - branding and typographic design - 2025",
     es: "DRW - Branbranding y diseño tipográficoding - 2025",
     val: "DRW - brànding i disseny tipogràfic - 2025",
+  },
+  {
+    src: ejemplar01,
+    en: "Ejemplar Estudio - lettering - 2025",
+    es: "Ejemplar Estudio - lettering - 2025",
+    val: "Ejemplar Estudio - lettering - 2025",
   },
      {
     src: xut_02,
@@ -455,6 +449,12 @@ const PROJECTS: {
     val: "JBZ - Brànding i Collages - 2025",
   },
   {
+    src: baho_cami,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
+  },
+  {
     src: telita_camisa,
     en: "Telita Estudio - Branding and typographic design - 2025",
     es: "Telita Estudio - Branding y diseño tipográfico - 2025",
@@ -462,9 +462,9 @@ const PROJECTS: {
   },
   {
     src: botiga,
-    en: "Botiga / Javier Unknos workshop - typographic design - 2025",
-    es: "Botiga / Javier Unknos workshop - Diseño tipográfico - 2025",
-    val: "Botiga / Javier Unknos workshop - Disseny tipogàfic - 2025",
+    en: "Botiga / Javier Unknos workshop - typographic design - 2024",
+    es: "Botiga / Javier Unknos workshop - Diseño tipográfico - 2024",
+    val: "Botiga / Javier Unknos workshop - Disseny tipogàfic - 2024",
   },
   {
     src: chao_02,
@@ -502,12 +502,6 @@ const PROJECTS: {
     es: "Saudade estudio - Branding y diseño editorial - 2024",
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
-  {
-    src: tf_01,
-    en: "monogram_01 - 2023",
-    es: "monograma_01 - 2023",
-    val: "monograma_01 - 2023",
-  },
    {
     src: garito_04,
     en: "Bar el Garito - Branding - 2024",
@@ -533,28 +527,10 @@ const PROJECTS: {
     val: "Horitzó — Fotografia i composició editorial",
   },
   {
-    src: kaychain,
-    en: "Lettering_02 - Sade - 2023",
-    es: "Lettering_02 - Sade - 2023",
-    val: "Lettering_02 - Sade - 2023",
-  },
-  {
     src: drw_dog,
     en: "DRW - branding and typographic design - 2025",
     es: "DRW - Branbranding y diseño tipográficoding - 2025",
     val: "DRW - brànding i disseny tipogràfic - 2025",
-  },
-  {
-    src: jbz4,
-    en: "JBZ - Branding and collages - 2025",
-    es: "JBZ - Branding y Collages - 2025",
-    val: "JBZ - Brànding i Collages - 2025",
-  },
-  {
-    src: baho_cami,
-    en: "Baho Gallery - Branding and poster design - 2024",
-    es: "Baho Gallery - branding y Diseño de poster - 2024",
-    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
   {
     src: monon,
