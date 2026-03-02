@@ -104,6 +104,8 @@ import baho_taco from "../images/works/baho_taquería.png";
 import baho_tarjeta from "../images/works/baho_tarjeta-21.gif";
 import saudade_product from "../images/works/Saudade_product.gif";
 import saudade_asset from "../images/works/SAUDADE_A.jpeg";
+import garito_foto from "../images/works/garito_foto.png";
+import brw_promo from "../images/works/brw_promo.gif";
 
 
 
@@ -224,9 +226,9 @@ const PROJECTS: {
   },
   {
     src: grim02,
-    en: "Grime / BRW - Art direcction - 2025",
-    es: "Grime / BRW - Dirección de arte - 2025",
-    val: "Grime / BRW - Direcció d’art - 2025",
+    en: "Grim / Aerodynamics - Art direcction - 2025",
+    es: "Grim / Aerodynamics - Dirección de arte - 2025",
+    val: "Grim / Aerodynamics - Direcció d’art - 2025",
   },
   {
     src: qi_foto,
@@ -302,9 +304,9 @@ const PROJECTS: {
   },
      {
     src: grim01,
-    en: "Grime / BRW - Art direcction - 2025",
-    es: "Grime / BRW - Dirección de arte - 2025",
-    val: "Grime / BRW - Direcció d’art - 2025",
+    en: "Grim / Aerodynamics - Art direcction - 2025",
+    es: "Grim / Aerodynamics - Dirección de arte - 2025",
+    val: "Grim / Aerodynamics - Direcció d’art - 2025",
   },
      {
     src: chaofoto,
@@ -434,9 +436,9 @@ const PROJECTS: {
   },
    {
     src: grim_poster,
-    en: "Grime / BRW - Art direcction - 2025",
-    es: "Grime / BRW - Dirección de arte - 2025",
-    val: "Grime / BRW - Direcció d’art - 2025",
+    en: "Grim / Aerodynamics - Art direcction - 2025",
+    es: "Grim / Aerodynamics - Dirección de arte - 2025",
+    val: "Grim / Aerodynamics - Direcció d’art - 2025",
   },
    {
     src: drw_logos,
@@ -511,7 +513,7 @@ const PROJECTS: {
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
    {
-    src: garito_04,
+    src: garito_foto,
     en: "Bar el Garito - Branding - 2024",
     es: "Bar el Garito - Branding - 2024",
     val: "Bar el Garito - Brànding - 2024",
@@ -551,6 +553,12 @@ const PROJECTS: {
     en: "collage_03 - 2024",
     es: "collage_03 - 2024",
     val: "collage_03 - 2024",
+  },
+  {
+    src: brw_promo,
+    en: "Grim / Aerodynamics - Art direcction - 2025",
+    es: "Grim / Aerodynamics - Dirección de arte - 2025",
+    val: "Grim / Aerodynamics - Direcció d’art - 2025",
   },
       {
     src: chao_poster,
