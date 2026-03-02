@@ -101,6 +101,7 @@ import kaychain from "../images/works/KEYCHAIN_SADE.png";
 import baho_cami from "../images/works/baho_camiset.gif";
 import baho_logo from "../images/works/baho_gif.gif";
 import baho_taco from "../images/works/baho_taquería.png";
+import baho_tarjeta from "../images/works/baho_tarjeta-21.gif";
 
 
 
@@ -170,6 +171,12 @@ const PROJECTS: {
     en: "Gerko - Branding and lettering - 2025",
     es: "Gerko - Branding y lettering - 2025",
     val: "Gerko - Brànding i lettering - 2025",
+  },
+  {
+    src: baho_tarjeta,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
   {
     src: libreta01,
