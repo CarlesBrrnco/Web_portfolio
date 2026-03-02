@@ -299,12 +299,6 @@ const PROJECTS: {
     val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
      {
-    src: anjocar,
-    en: "palets Anjocar - branding - 2024",
-    es: "palets Anjocar - branding - 2024",
-    val: "palets Anjocar - branding - 2024",
-  },
-     {
     src: grim01,
     en: "Grime / BRW - Art direcction - 2025",
     es: "Grime / BRW - Dirección de arte - 2025",
@@ -321,6 +315,12 @@ const PROJECTS: {
     en: "Bar el Garito - Branding - 2024",
     es: "Bar el Garito - Branding - 2024",
     val: "Bar el Garito - Brànding - 2024",
+  },
+  {
+    src: baho_logo,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
      {
     src: type_xut,
@@ -478,12 +478,6 @@ const PROJECTS: {
     es: "DRW - Branbranding y diseño tipográficoding - 2025",
     val: "DRW - brànding i disseny tipogràfic - 2025",
   },
-  {
-    src: baho_logo,
-    en: "Baho Gallery - Branding and poster design - 2024",
-    es: "Baho Gallery - branding y Diseño de poster - 2024",
-    val: "Baho Gallery - brànding i disseny de poster - 2024",
-  },
    {
     src: ronnie,
     en: "Xut - branding and typographic design - 2025",
@@ -501,6 +495,12 @@ const PROJECTS: {
     en: "Saudade estudio - Branding and editorial design - 2024",
     es: "Saudade estudio - Branding y diseño editorial - 2024",
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
+  },
+  {
+    src: anjocar,
+    en: "palets Anjocar - branding - 2024",
+    es: "palets Anjocar - branding - 2024",
+    val: "palets Anjocar - branding - 2024",
   },
    {
     src: garito_04,
