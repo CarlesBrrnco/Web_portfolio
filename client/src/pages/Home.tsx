@@ -117,7 +117,7 @@ import baho_posters from "../images/works/Posters_baho.gif";
 
 const MARGIN_VAR = "var(--page-margin)";
 
-const PORTRAIT = portrait;
+const PORTRAIT = collage_vaquero;
 
 // Fallback gallery data
 const PROJECTS: {
@@ -211,13 +211,7 @@ const PROJECTS: {
     val: "Marciá / Casta Diva - Direcció de videoclip i disseny de crèdits - 2025",
   },
   {
-    src: saudade02,
-    en: "Saudade estudio - Branding and editorial design - 2024",
-    es: "Saudade estudio - Branding y diseño editorial - 2024",
-    val: "Saudade estudio - Brànding i disseny editorial - 2024",
-  },
-  {
-    src: poster_arc2,
+    src: poster_arc1,
     en: "Baho Gallery - Branding and poster design - 2024",
     es: "Baho Gallery - branding y Diseño de poster - 2024",
     val: "Baho Gallery - brànding i disseny de poster - 2024",
