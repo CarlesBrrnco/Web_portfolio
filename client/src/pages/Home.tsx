@@ -217,7 +217,7 @@ const PROJECTS: {
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
   {
-    src: baho_posters,
+    src: poster_arc2,
     en: "Baho Gallery - Branding and poster design - 2024",
     es: "Baho Gallery - branding y Diseño de poster - 2024",
     val: "Baho Gallery - brànding i disseny de poster - 2024",
@@ -257,12 +257,6 @@ const PROJECTS: {
     en: "Saudade estudio - Branding and editorial design - 2024",
     es: "Saudade estudio - Branding y diseño editorial - 2024",
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
-  },
-    {
-    src: gerko_04,
-    en: "Gerko - Branding and lettering - 2025",
-    es: "Gerko - Branding y lettering - 2025",
-    val: "Gerko - Brànding i lettering - 2025",
   },
   {
     src: collage_02,
@@ -343,7 +337,7 @@ const PROJECTS: {
     val: "Ejemplar Estudio - lettering - 2025",
   },
   {
-    src: poster_arc2,
+    src: baho_posters,
     en: "Baho Gallery - Branding and poster design - 2024",
     es: "Baho Gallery - branding y Diseño de poster - 2024",
     val: "Baho Gallery - brànding i disseny de poster - 2024",
@@ -371,12 +365,6 @@ const PROJECTS: {
     en: "Saudade estudio - Branding and editorial design - 2024",
     es: "Saudade estudio - Branding y diseño editorial - 2024",
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
-  },
-  {
-    src: baho_logos,
-    en: "Baho Gallery - Branding and poster design - 2024",
-    es: "Baho Gallery - branding y Diseño de poster - 2024",
-    val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
   {
     src: macria_02,
@@ -504,6 +492,12 @@ const PROJECTS: {
     val: "JBZ - Brànding i Collages - 2025",
   },
   {
+    src: baho_logos,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
+  },
+  {
     src: anjocar,
     en: "palets Anjocar - branding - 2024",
     es: "palets Anjocar - branding - 2024",
@@ -568,6 +562,12 @@ const PROJECTS: {
     en: "Saudade estudio - Branding and editorial design - 2024",
     es: "Saudade estudio - Branding y diseño editorial - 2024",
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
+  },
+  {
+    src: gerko_04,
+    en: "Gerko - Branding and lettering - 2025",
+    es: "Gerko - Branding y lettering - 2025",
+    val: "Gerko - Brànding i lettering - 2025",
   },
 ];
 
