@@ -252,12 +252,6 @@ const PROJECTS: {
     es: "Saudade estudio - Branding y diseño editorial - 2024",
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
-  {
-    src: collage_02,
-    en: "collage_01 - 2024",
-    es: "collage_01 - 2024",
-    val: "collage_01 - 2024",
-  },
    {
     src: drw_con,
     en: "DRW - branding and typographic design - 2025",
@@ -330,12 +324,6 @@ const PROJECTS: {
     es: "Ejemplar Estudio - lettering - 2025",
     val: "Ejemplar Estudio - lettering - 2025",
   },
-  {
-    src: baho_posters,
-    en: "Baho Gallery - Branding and poster design - 2024",
-    es: "Baho Gallery - branding y Diseño de poster - 2024",
-    val: "Baho Gallery - brànding i disseny de poster - 2024",
-  },
      {
     src: xut_02,
     en: "Xut - branding and typographic design - 2025",
@@ -373,6 +361,12 @@ const PROJECTS: {
     val: "Bar el Garito - Brànding - 2024",
   },
   {
+    src: baho_posters,
+    en: "Baho Gallery - Branding and poster design - 2024",
+    es: "Baho Gallery - branding y Diseño de poster - 2024",
+    val: "Baho Gallery - brànding i disseny de poster - 2024",
+  },
+  {
     src: plantilla,
     en: "stencil_01 - 2024",
     es: "plantilla_01 - 2024",
@@ -395,12 +389,6 @@ const PROJECTS: {
     en: "Qi, energy never lies / Cresone - Vynil design and art direction - 2024",
     es: "Qi, energy never lies / Cresone - diseño de vinilo y dirección de arte - 2024",
     val: "Qi, energy never lies / Cresone - disseny de vinil i direcció d’art - 2024",
-  },
-   {
-    src: collage_vaquero,
-    en: "collage_02 - 2024",
-    es: "collage_02 - 2024",
-    val: "collage_02 - 2024",
   },
    {
     src: saudade04,
@@ -443,7 +431,8 @@ const PROJECTS: {
     en: "Baho Gallery - Branding and poster design - 2024",
     es: "Baho Gallery - branding y Diseño de poster - 2024",
     val: "Baho Gallery - brànding i disseny de poster - 2024",
-  },{
+  },
+  {
     src: brw_promo,
     en: "Grim / Aerodynamics - Art direcction - 2025",
     es: "Grim / Aerodynamics - Dirección de arte - 2025",
@@ -532,12 +521,6 @@ const PROJECTS: {
     en: "Bruten display - typographic design - 2025",
     es: "Bruten display - Diseño tipográfico - 2025",
     val: "Bruten display - Disseny tipogàfic - 2025",
-  },
-   {
-    src: collage_garfield,
-    en: "collage_03 - 2024",
-    es: "collage_03 - 2024",
-    val: "collage_03 - 2024",
   },
       {
     src: chao_poster,
