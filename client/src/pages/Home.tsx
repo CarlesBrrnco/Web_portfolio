@@ -106,6 +106,10 @@ import saudade_product from "../images/works/Saudade_product.gif";
 import saudade_asset from "../images/works/SAUDADE_A.jpeg";
 import garito_foto from "../images/works/garito_foto.png";
 import brw_promo from "../images/works/brw_promo.gif";
+import baho_logos from "../images/works/baho_logo-08.gif";
+import saudade_papel from "../images/works/papeleria_saudade.gif";
+import baho_posters from "../images/works/Posters_baho.gif";
+
 
 
 
@@ -183,12 +187,6 @@ const PROJECTS: {
     val: "Baho Gallery - brànding i disseny de poster - 2024",
   },
   {
-    src: libreta01,
-    en: "Notebook_01 - 2025",
-    es: "Libreta_01 - 2025",
-    val: "Llibreta_01 - 2025",
-  },
-  {
     src: Xut01,
     en: "Xut - branding and typographic design - 2025",
     es: "Xut - branding y diseño tipográfico - 2025",
@@ -219,7 +217,7 @@ const PROJECTS: {
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
   {
-    src: poster_arc1,
+    src: baho_posters,
     en: "Baho Gallery - Branding and poster design - 2024",
     es: "Baho Gallery - branding y Diseño de poster - 2024",
     val: "Baho Gallery - brànding i disseny de poster - 2024",
@@ -253,6 +251,12 @@ const PROJECTS: {
     en: "DRW - branding and typographic design - 2025",
     es: "DRW - Branbranding y diseño tipográficoding - 2025",
     val: "DRW - brànding i disseny tipogràfic - 2025",
+  },
+  {
+    src: saudade_papel,
+    en: "Saudade estudio - Branding and editorial design - 2024",
+    es: "Saudade estudio - Branding y diseño editorial - 2024",
+    val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
     {
     src: gerko_04,
@@ -369,7 +373,7 @@ const PROJECTS: {
     val: "Saudade estudio - Brànding i disseny editorial - 2024",
   },
   {
-    src: baho_logo,
+    src: baho_logos,
     en: "Baho Gallery - Branding and poster design - 2024",
     es: "Baho Gallery - branding y Diseño de poster - 2024",
     val: "Baho Gallery - brànding i disseny de poster - 2024",
@@ -428,12 +432,6 @@ const PROJECTS: {
     es: "Nervo Serif - Diseño tipográfico - 2025",
     val: "Nervo Serif - Disseny tipogàfic - 2025",
   },
-  {
-    src: libreta02,
-    en: "Notebook_02 - 2025",
-    es: "Libreta_02 - 2025",
-    val: "Llibreta_02 - 2025",
-  },
    {
     src: grim_poster,
     en: "Grim / Aerodynamics - Art direcction - 2025",
@@ -463,6 +461,11 @@ const PROJECTS: {
     en: "Baho Gallery - Branding and poster design - 2024",
     es: "Baho Gallery - branding y Diseño de poster - 2024",
     val: "Baho Gallery - brànding i disseny de poster - 2024",
+  },{
+    src: brw_promo,
+    en: "Grim / Aerodynamics - Art direcction - 2025",
+    es: "Grim / Aerodynamics - Dirección de arte - 2025",
+    val: "Grim / Aerodynamics - Direcció d’art - 2025",
   },
   {
     src: telita_camisa,
@@ -519,12 +522,6 @@ const PROJECTS: {
     val: "Bar el Garito - Brànding - 2024",
   },
   {
-    src: libreta03,
-    en: "Notebook_03 - 2025",
-    es: "Libreta_03 - 2025",
-    val: "Llibreta_03 - 2025",
-  },
-  {
     src: qi_01,
     en: "Qi, energy never lies / Cresone - Vynil design and art direction - 2024",
     es: "Qi, energy never lies / Cresone - diseño de vinilo y dirección de arte - 2024",
@@ -553,12 +550,6 @@ const PROJECTS: {
     en: "collage_03 - 2024",
     es: "collage_03 - 2024",
     val: "collage_03 - 2024",
-  },
-  {
-    src: brw_promo,
-    en: "Grim / Aerodynamics - Art direcction - 2025",
-    es: "Grim / Aerodynamics - Dirección de arte - 2025",
-    val: "Grim / Aerodynamics - Direcció d’art - 2025",
   },
       {
     src: chao_poster,
