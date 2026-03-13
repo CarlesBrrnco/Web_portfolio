@@ -117,7 +117,7 @@ import baho_posters from "../images/works/Posters_baho.gif";
 
 const MARGIN_VAR = "var(--page-margin)";
 
-const PORTRAIT = collage_vaquero;
+const PORTRAIT = portrait;
 
 // Fallback gallery data
 const PROJECTS: {
