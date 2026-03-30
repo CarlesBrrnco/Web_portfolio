@@ -28,7 +28,7 @@ interface Translations {
 const translations: Record<Language, Translations> = {
   en: {
     headerBio:
-      "Carlesbrrnco is a freelance designer based in Valencia, Spain. His work focuses on typographic design and analog exploration.",
+      "Carlesbrrnco is a freelance designer based in Valencia, Spain. His work focuses on typographic design.",
     description:
       "Collaborating with clients from around the world, he creates projects that are both strategic and unconventional. Always grounded in research, culture and form. Whether typography or brand identity, every outcome is built to communicate clearly and endure.",
     servicesLabel: "Services:",
@@ -58,7 +58,7 @@ const translations: Record<Language, Translations> = {
   },
   es: {
     headerBio:
-      "Carlesbrrnco es un diseñador freelance con base en Valencia, España. Su trabajo se centra en el diseño tipográfico y la exploración analógica.",
+      "Carlesbrrnco es un diseñador freelance con base en Valencia, España. Su trabajo se centra en el diseño tipográfico.",
     description:
       "Colaborando con clientes de todo el mundo, crea proyectos que son tanto estratégicos como poco convencionales. Siempre fundamentados en la investigación, la cultura y la forma. Ya sea tipografía o identidad de marca, cada resultado está construido para comunicar con claridad y perdurar.",
     servicesLabel: "Servicios:",
@@ -88,7 +88,7 @@ const translations: Record<Language, Translations> = {
   },
   val: {
     headerBio:
-      "Carlesbrrnco és un dissenyador freelance amb base a València, Espanya. El seu treball se centra en el disseny tipogràfic i l'exploració analògica.",
+      "Carlesbrrnco és un dissenyador freelance amb base a València, Espanya. El seu treball se centra en el disseny tipogràfic.",
     description:
       "Col·laborant amb clients de tot el món, crea projectes que són tant estratègics com poc convencionals. Sempre fonamentats en la investigació, la cultura i la forma. Ja siga tipografia o identitat de marca, cada resultat està construït per a comunicar amb claredat i perdurar.",
     servicesLabel: "Serveis:",
