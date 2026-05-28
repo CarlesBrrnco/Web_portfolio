@@ -109,6 +109,8 @@ import brw_promo from "../images/works/brw_promo.gif";
 import baho_logos from "../images/works/baho_logo-08.gif";
 import saudade_papel from "../images/works/papeleria_saudade.gif";
 import baho_posters from "../images/works/Posters_baho.gif";
+import malcria from "../images/works/malcriá-post.gif";
+import cresabc from "../images/works/09a 2.gif";
 
 
 
@@ -546,6 +548,20 @@ const PROJECTS: {
     es: "Gerko - Branding y lettering - 2025",
     val: "Gerko - Brànding i lettering - 2025",
   },
+  {
+    src: malcria,
+    en: "Malcriá, Casta Diva - Art & Visual Direction ft. Guille Terrádez & Dano  - 2025",
+    es: "Malcriá, Casta Diva - Dirección de arte y visualización ft. Guille Terrádez & Dano  - 2025",
+    val: "Malcriá, Casta Diva - Direcció d’art i visualització ft. Guille Terrádez & Dano  - 2025",
+  },
+  {
+    src: cresabc,
+    en: "Qi, energy never lies / Cresone - Vynil design and art direction - 2024",
+    es: "Qi, energy never lies / Cresone - diseño de vinilo y dirección de arte - 2024",
+    val: "Qi, energy never lies / Cresone - disseny de vinil i direcció d’art - 2024",
+  },
+  
+
 ];
 
 type GalleryItem = { src: string; en: string; es: string; val: string };
